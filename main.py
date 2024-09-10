@@ -35,29 +35,29 @@ async def account_login(bot: Client, m: Message):
 
 𝐈 𝐀𝐦 {me2},
 𝐅𝐨𝐫 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐋𝐢𝐧𝐤𝐬 𝐅𝐫𝐨𝐦 𝐘𝐨𝐮𝐫 **.𝐓𝐗𝐓** 𝐅𝐢𝐥𝐞.
-𝐀𝐧𝐝 𝐓𝐡𝐞𝐧 𝐔𝐩𝐥𝐨𝐚𝐝 𝐓𝐡𝐚𝐭 𝐅𝐢𝐥𝐞 𝐎𝐧 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐒𝐨 𝐁𝐚𝐬𝐢𝐜𝐚𝐥𝐥𝐲 𝐈𝐟 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞 𝐅𝐢𝐫𝐬𝐭 𝐒𝐞𝐧𝐝 𝐌𝐞 ⟰ /SmexyOP 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐀𝐧𝐝 𝐓𝐡𝐞𝐧 𝐅𝐨𝐥𝐥𝐨𝐰 𝐅𝐞𝐰 𝐒𝐭𝐞𝐩𝐬..
+𝐀𝐧𝐝 𝐓𝐡𝐞𝐧 𝐔𝐩𝐥𝐨𝐚𝐝 𝐓𝐡𝐚𝐭 𝐅𝐢𝐥𝐞 𝐎𝐧 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐒𝐨 𝐁𝐚𝐬𝐢𝐜𝐚𝐥𝐥𝐲 𝐈𝐟 𝐘𝐨𝐮 𝐖𝐚𝐧𝐭 𝐓𝐨 𝐔𝐬𝐞 𝐌𝐞 𝐅𝐢𝐫𝐬𝐭 𝐒𝐞𝐧𝐝 𝐌𝐞 ⟰ /Radha 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐀𝐧𝐝 𝐓𝐡𝐞𝐧 𝐅𝐨𝐥𝐥𝐨𝐰 𝐅𝐞𝐰 𝐒𝐭𝐞𝐩𝐬..
 𝐍𝐎 𝐀𝐍𝐘 𝐄𝐑𝐑𝐎𝐑.
 
-🤖𝐌𝐚𝐝𝐞 𝐁𝐲  : [𝙎𝙢𝙚𝙭𝙮 ᥫ᭡](http://t.me/SmexyOP) """, reply_markup=InlineKeyboardMarkup(
+🤖𝐌𝐚𝐝𝐞 𝐁𝐲  : [✗━✗━⟡☘ 𝐑𝙰𝙳𝙷𝙰 ☘⟡━✗━✗](http://t.me/i_am_radha) """, reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✜ 𝐌𝐮𝐬𝐭 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/SmexyStore") ],
+                    InlineKeyboardButton("✜ 𝐌𝐮𝐬𝐭 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✜" ,url=f"https://t.me/tg_bots_radha") ],
                     [
-                    InlineKeyboardButton("✜◆ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ◆✜" ,url="https://t.me/SmexyOP") ],
+                    InlineKeyboardButton("✜◆ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ◆✜" ,url="https://t.me/i_am_radha") ],
                     [
-                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://www.youtube.com/@Vire_1_") ]                               
+                    InlineKeyboardButton("🦋 𝐅𝐨𝐥𝐥𝐨𝐰 𝐌𝐞 🦋" ,url="https://t.me/radhasupportchat") ]                               
             ]))
 
 
 
 @bot.on_message(filters.command("Stop"))
 async def restart_handler(_, m):
-    await m.reply_text("**💕𝑺𝒕𝒐𝒑𝒑𝒆𝒅 𝑩𝒂𝒃𝒆💕**🚦", True)
+    await m.reply_text("**💕🅂🅃🄾🄿💕**", True)
     os.execl(sys.executable, sys.executable, *sys.argv)
 
 
 
-@bot.on_message(filters.command(["SmexyOP"]))
+@bot.on_message(filters.command(["Radha"]))
 async def account_login(bot: Client, m: Message):
     me2 = (await bot.get_me()).mention
     editable = await m.reply_text(
@@ -120,12 +120,12 @@ async def account_login(bot: Client, m: Message):
     
     
 
-    await editable.edit("**✏️ 𝐍𝐨𝐰 𝐄𝐧𝐭𝐞𝐫 𝐀 𝐂𝐚𝐩𝐭𝐢𝐨𝐧 𝐭𝐨 𝐚𝐝𝐝 𝐜𝐚𝐩𝐭𝐢𝐨𝐧 𝐨𝐧 𝐲𝐨𝐮𝐫 𝐮𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐟𝐢𝐥𝐞 𝐎𝐭𝐡𝐞𝐫𝐰𝐢𝐬𝐞 𝐬𝐞𝐧𝐝**   **`𝙎𝙢𝙚𝙭𝙮 ᥫ᭡`**")
+    await editable.edit("**✏️ 𝐍𝐨𝐰 𝐄𝐧𝐭𝐞𝐫 𝐀 𝐂𝐚𝐩𝐭𝐢𝐨𝐧 𝐭𝐨 𝐚𝐝𝐝 𝐜𝐚𝐩𝐭𝐢𝐨𝐧 𝐨𝐧 𝐲𝐨𝐮𝐫 𝐮𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐟𝐢𝐥𝐞 𝐎𝐭𝐡𝐞𝐫𝐰𝐢𝐬𝐞 𝐬𝐞𝐧𝐝**   **`Radha`**")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
     highlighter  = f"️ ⁪⁬⁮⁮⁮"
-    if raw_text3 == '𝙎𝙢𝙚𝙭𝙮 ᥫ᭡':
+    if raw_text3 == 'Radha':
         MR = highlighter 
     else:
         MR = raw_text3
@@ -182,8 +182,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**𝐕𝐢𝐝_𝐢𝐝🎬➤ {str(count).zfill(3)}\n𝐓𝐢𝐭𝐥𝐞 ➤ {𝗻𝗮𝗺𝗲𝟭} {res} {MR}.mkv\n𝐁𝐚𝐭𝐜𝐡 ➤ {raw_text0}\n\n🌟𝔻ᴏᴡɴʟᴏᴀᴅ 𝔹ʏ ✨ [𝙎𝙢𝙚𝙭𝙮 ᥫ᭡](http://t.me/SmexyOP)\n**'
-                cc1 = f'**𝐕𝐢𝐝_𝐢𝐝🎬➤ {str(count).zfill(3)}\n𝐓𝐢𝐭𝐥𝐞 ➤ {𝗻𝗮𝗺𝗲𝟭} {MR}.pdf \n𝐁𝐚𝐭𝐜𝐡 ➤ {raw_text0}\n\n🌟𝔻ᴏᴡɴʟᴏᴀᴅ 𝔹ʏ ✨ [𝙎𝙢𝙚𝙭𝙮 ᥫ᭡](http://t.me/SmexyOP)\n**'
+                cc = f'**𝐕𝐢𝐝_𝐢𝐝🎬➤ {str(count).zfill(3)}\n𝐓𝐢𝐭𝐥𝐞 ➤ {𝗻𝗮𝗺𝗲𝟭} {res} {MR}.mkv\n𝐁𝐚𝐭𝐜𝐡 ➤ {raw_text0}\n\n🌟𝔻ᴏᴡɴʟᴏᴀᴅ 𝔹ʏ ✨ [✗━✗━⟡☘ 𝐑𝙰𝙳𝙷𝙰 ☘⟡━✗━✗](http://t.me/i_am_radha)\n**'
+                cc1 = f'**𝐕𝐢𝐝_𝐢𝐝🎬➤ {str(count).zfill(3)}\n𝐓𝐢𝐭𝐥𝐞 ➤ {𝗻𝗮𝗺𝗲𝟭} {MR}.pdf \n𝐁𝐚𝐭𝐜𝐡 ➤ {raw_text0}\n\n🌟𝔻ᴏᴡɴʟᴏᴀᴅ 𝔹ʏ ✨ [✗━✗━⟡☘ 𝐑𝙰𝙳𝙷𝙰 ☘⟡━✗━✗](http://t.me/i_am_radha)\n**'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -209,7 +209,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**❊⟱𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »**\n\n**📝 𝐍𝐚𝐦𝐞 »** `{name}\n⌨ 𝐐𝐮𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n🤖𝐌𝐚𝐝𝐞 𝐁𝐲  : [𝙎𝙢𝙚𝙭𝙮 ᥫ᭡](http://t.me/SmexyOP)\n"
+                    Show = f"**❊⟱𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ⟱❊ »**\n\n**📝 𝐍𝐚𝐦𝐞 »** `{name}\n⌨ 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {raw_text2}`\n\n**🔗 𝐔𝐑𝐋 »** `{url}`\n\n🤖𝐌𝐚𝐝𝐞 𝐁𝐲  : [✗━DEVELOPER RADHA━✗](http://t.me/tg_bots_radha)\n"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -226,7 +226,7 @@ async def account_login(bot: Client, m: Message):
 
     except Exception as e:
         await m.reply_text(e)
-    await m.reply_text("**🚦𝐃𝐨𝐧𝐞🚦\n𝐒𝐛 𝐍𝐢𝐤𝐚𝐥 𝐃𝐢𝐲𝐚 𝐁𝐚𝐛𝐞💕\n 𝐌𝐔𝐒𝐓 𝐉𝐎𝐈𝐍 [𝙎𝙈𝙀𝙓𝙔 𝙎𝙏𝙊𝙍𝙀 🇮🇳](http://t.me/SmexyStore)**")
+    await m.reply_text("**🚦𝐃𝐨𝐧𝐞🚦\n\n 𝐌𝐔𝐒𝐓 𝐉𝐎𝐈𝐍 [RADHA COURSE ZONE](https://t.me/Free_study_material_By_Radha)**")
 
 
 bot.run()
